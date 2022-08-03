@@ -5,10 +5,11 @@
 }
 
 body {
-  height: 100vh;
+  height: 85vh;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   background: #6d1783;
 }
 
@@ -19,7 +20,10 @@ body {
   border-radius: 12px;
   background: #ffffff;
 }
-
+#logoin {
+  width: 500px;
+  border-radius: 18px;
+}
 .login h1 {
   font-size: 36px;
   margin-bottom: 25px;
@@ -36,4 +40,13 @@ body {
 .login form input[type="submit"] {
   font-size: 20px;
   margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  #logoin {
+    width: 328px;
+  }
+
+  body {
+  }
 }
