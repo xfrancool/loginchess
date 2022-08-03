@@ -202,7 +202,7 @@ h1 {
 }
 .grupo {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
   margin-top: 40px;
