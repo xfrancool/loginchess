@@ -45,6 +45,7 @@ body {
 @media (max-width: 768px) {
   #logoin {
     width: 338px;
+    margin-top: 5px;
   }
 
   body {
