@@ -6,5 +6,5 @@ function login() {
 
   if (user == "elimaryarg" && pass == "hola12") {
     window.location = "inicio.html";
-  }
+  } else alert("Por favor, ingrese usuario y contraseña corectos");
 }
