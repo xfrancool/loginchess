@@ -7,6 +7,8 @@
     <title>Academia</title>
     <link rel="shortcut icon" href="img/logoweb.ico" />
     <link rel="stylesheet" href="style.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito&family=Open+Sans&family=Roboto+Mono&family=Secular+One&family=Square+Peg&family=Titillium+Web:wght@200&display=swap"
       rel="stylesheet"
@@ -15,6 +17,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -67,8 +70,11 @@
         </h1>
         <img
           src="img/logo1.png"
-          class="imglogo animate__animated animate__bounceInDown"
+          class="imglogo"
           alt=""
+          data-aos="zoom-in"
+          data-aos-delay="900"
+          data-aos-once="false"
         />
         <br />
         <!--  <img src="img/letraszoom.png" class="letraszoom" alt="" /> -->
@@ -193,6 +199,10 @@
       </div>
     </div>
   </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="app.js"></script>
   <script src="login.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
