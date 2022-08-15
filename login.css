@@ -93,6 +93,7 @@ body {
 }
 .main__input--send:hover {
   background-color: #1a9a47;
+  transition: 1s;
 }
 .main__title {
   font-size: 2.3rem;
@@ -147,5 +148,8 @@ body {
   }
   .main__contact {
     padding: 2em;
+  }
+  .main__input--send:hover {
+    background-color: #1a9a47;
   }
 }
