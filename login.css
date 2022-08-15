@@ -34,6 +34,7 @@ body {
 
   animation: mostrar 1.5s ease-in-out;
   justify-content: center;
+  align-items: center;
 }
 
 @keyframes mostrar {
@@ -51,6 +52,7 @@ body {
   border-radius: 2em;
   background-color: black;
   display: flex;
+  height: 460px;
 }
 
 .main__img {
@@ -129,7 +131,8 @@ body {
   }
 
   .main__figure {
-    background-color: #a3bded;
+    background-color: #6991c7;
+    height: 220px;
   }
   .main__icon {
     width: 40px;
@@ -139,5 +142,8 @@ body {
     margin: auto;
     width: 95%;
     max-width: 1000px;
+  }
+  .main__contact {
+    padding: 1em;
   }
 }
