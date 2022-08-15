@@ -132,7 +132,7 @@ body {
 
   .main__figure {
     background-color: #6991c7;
-    height: 240px;
+    height: 245px;
   }
   .main__icon {
     width: 40px;
@@ -144,6 +144,6 @@ body {
     max-width: 1000px;
   }
   .main__contact {
-    padding: 1em;
+    padding: 2em;
   }
 }
