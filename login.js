@@ -5,7 +5,7 @@ function login() {
   pass = document.getElementById("password").value;
 
   if (user == "grupo1" && pass == "1516") {
-    window.location = "grupos/grupo1.html";
+    window.location = "grupos/primero/grupo1.html";
   }
 
   if (user == "elimaryarg" && pass == "hola12") {
