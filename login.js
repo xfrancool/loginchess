@@ -6,13 +6,9 @@ function login() {
 
   if (user == "Grupo1" && pass == "1516") {
     window.location = "grupos/primero/grupo1.html";
-  }
-
-  if (user == "elimaryarg" && pass == "hola12") {
+  } else if (user == "elimaryarg" && pass == "hola12") {
     window.location = "inicio.html";
-  }
-
-  /*  else {
+  } else {
     alert("Por favor, ingrese usuario y contraseña corectos");
-  } */
+  }
 }
