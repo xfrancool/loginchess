@@ -11,10 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito&family=Open+Sans&family=Roboto+Mono&family=Secular+One&family=Square+Peg&family=Titillium+Web:wght@200&display=swap"
       rel="stylesheet"
     />
+    
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -60,22 +63,38 @@
       </div>
       <div class="aside ">
 
-        <h1 id="textfinal">Bienvenidos</h1>
+        <h1 id="textfinal" class="animate__animated animate__flipInX animate__delay-1s">Bienvenidos</h1>
         <img
         src="../img/logo1.png"
-        class="imglogo"
+        class="imglogo animate__animated animate__fadeIn animate__delay-2s"
         alt=""
         data-aos="zoom-in"
         data-aos-delay="900"
         data-aos-once="false"
       />
       <br />
-      <br />
-      <br />
-        <h2>Grupal J 15-16</h2>
+      
+        <!-- <h2 class="animate__animated animate__flipInX animate__delay-2s">Grupal J 15-16</h2> -->
+        
+
+        <div class="grupo animate__animated animate__flipInX animate__delay-2s">
+          <div class="" id="">
+            <h2>
+              Grupo 1
+              <a href="https://meet.google.com/znf-heas-ubv?authuser=0&hl=es_419" target="_blank"
+                ><img src="../img/meet.png" class="logozoom" alt=""
+              /></a>
+            </h2>
+
+            <p class="horarios">Jueves (15hs.) <br /></p>
+          </div>
+
+        </div>
+        <br>
         <br>
         
-        <div class="card animate__animated animate__pulse animate__delay-1s">
+        
+        <div class="card animate__animated animate__pulse animate__delay-4s">
             <div class="textcard">
                 <p class="parrafocard">
                     <h3>Introducción</h3>
@@ -87,7 +106,7 @@
           
           
         </div>
-        <div class="card animate__animated animate__pulse animate__delay-1s">
+        <div class="card animate__animated animate__pulse animate__delay-4s">
             <div class="textcard">
                 <p class="parrafocard">
                     <h3>Clase 1</h3>
@@ -97,7 +116,7 @@
 
           
         </div>
-        <div class="card animate__animated animate__pulse animate__delay-1s">
+        <div class="card animate__animated animate__pulse animate__delay-4s">
             <div class="textcard">
                 <p class="parrafocard">
                     <h3>Clase 2</h3>
@@ -106,14 +125,22 @@
                
               </div>
         </div>
-        <div class="card animate__animated animate__pulse animate__delay-1s">
+        <div class="card animate__animated animate__pulse animate__delay-4s">
             <div class="textcard">
                 
                     <h3>Clase 3</h3>
                   
                
               </div>
+              
         </div>
+        
+        <img
+        src="../img/intrucion.png"
+        alt=""
+        class="instructivo animate__animated animate__fadeIn animate__delay-4s"
+      />
+
         <!-- <div class="card animate__animated animate__pulse animate__delay-1s">
             <div class="textcard">
                 <p class="parrafocard">
@@ -158,10 +185,11 @@
         title="Go to top"
         class="top"
 
-      >
-        <ion-icon name="caret-up-circle-outline"></ion-icon>
-      </button>
+       >
+          <ion-icon name="caret-up-circle-outline"></ion-icon>
+         </button>
       </div>
+      
 
       <div class="footer">
         <p>
@@ -172,6 +200,9 @@
         </p>
       </div>
     </div>
+    
   </body>
   <script src="../app.js"></script>
+ 
+  
 </html>
