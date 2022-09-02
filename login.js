@@ -4,7 +4,7 @@ function login() {
   user = document.getElementById("usuario").value;
   pass = document.getElementById("password").value;
 
-  if (user == "grupo1" && pass == "1516") {
+  if (user == "Grupo1" && pass == "1516") {
     window.location = "grupos/primero/grupo1.html";
   }
 
