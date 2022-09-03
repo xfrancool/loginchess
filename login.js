@@ -4,7 +4,10 @@ function login() {
   user = document.getElementById("usuario").value;
   pass = document.getElementById("password").value;
 
-  if (user == "Grupo1" && pass == "1516") {
+  if (user == "Sherleck" && pass == "1516") {
+    window.location = "grupos/primero/grupo1.html";
+  }
+  if (user == "Joshua" && pass == "1517") {
     window.location = "grupos/primero/grupo1.html";
   }
   if (user == "Sergio29m" && pass == "5445") {
