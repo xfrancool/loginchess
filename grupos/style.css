@@ -32,6 +32,7 @@ body {
     "nav nav nav"
     "aside aside aside"
     "aside aside aside"
+    "aside aside aside"
     "footer footer footer";
 }
 
@@ -323,7 +324,7 @@ a {
   background: black;
   color: white;
   text-align: center;
-  padding: 15px;
+  padding: 20px;
   width: 100%;
 }
 #website {
@@ -345,6 +346,7 @@ a {
     grid-auto-flow: row;
     grid-template-areas:
       "nav nav nav"
+      "aside aside aside"
       "aside aside aside"
       "aside aside aside"
       "footer footer footer";

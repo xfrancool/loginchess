@@ -6,11 +6,9 @@ function login() {
 
   if (user == "Sherleck" && pass == "1516") {
     window.location = "grupos/primero/grupo1.html";
-  }
-  if (user == "Joshua" && pass == "1517") {
+  } else if (user == "Joshua" && pass == "1517") {
     window.location = "grupos/primero/grupo1.html";
-  }
-  if (user == "Sergio29m" && pass == "5445") {
+  } else if (user == "Sergio29m" && pass == "5445") {
     window.location = "grupos/sergio/sergio.html";
   } else if (user == "elimaryarg" && pass == "hola12") {
     window.location = "inicio.html";
