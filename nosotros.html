@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academia</title>
+    <link rel="shortcut icon" href="img/logoweb.ico" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito&family=Open+Sans&family=Roboto+Mono&family=Secular+One&family=Square+Peg&family=Titillium+Web:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <nav id="menu">
+          <input
+            type="checkbox"
+            id="responsive-menu"
+            onclick="updatemenu()"
+          /><label></label>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li>
+              <a class="dropdown-arrow" href="#">Material de trabajo</a>
+              <ul class="sub-menus">
+                <li><a href="materiales.html">Materiales básicos</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a class="dropdown-arrow" href="#">Juegos</a>
+              <ul class="sub-menus">
+                <li><a href="video.html">Videos</a></li>
+                <li><a href="conceptos.html">Conceptos iniciales</a></li>
+                <li><a href="juegos.html">Juegos Iniciales</a></li>
+                <li><a href="finales.html">Juegos de finales</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="dropdown-arrow" href="#">Grupos</a>
+              <ul class="sub-menus">
+                <li><a href="grupos/primero/grupo1.html">Grupo1</a></li>
+                <li><a href="#">G2</a></li>
+                <li><a href="#">G3</a></li>
+                <li><a href="#">G4</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="dropdown-arrow" href="#">Premiun</a>
+              <ul class="sub-menus">
+                <li><a href="grupos/sergio/sergio.html">Sergio</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+              </ul>
+            </li>
+            <li><a href="#">Acerca de nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="aside">
+        <!-- <h1
+          id="tiger"
+          class="animate__animated animate__pulse animate__delay-1s"
+        >
+          Somos
+        </h1> -->
+        <img
+          src="img/logo1.png"
+          class="imglogo"
+          alt=""
+          data-aos="zoom-in"
+          data-aos-delay="900"
+          data-aos-once="false"
+        />
+        <br />
+        <br />
+        <br />
+
+        <div class="card animate__animated animate__pulse animate__delay-1s">
+          <div class="textcard">
+            <p class="parrafocard"></p>
+            <h3>¿Quiénes somos?</h3>
+
+            Somos un equipo de profesores que enseña a nivel inicial y
+            profesional, con experiencia tanto jugando como enseñando en
+            diferentes partes del país y del mundo. Nuestro objetivo es
+            brindarte las herramientas necesarias para que puedas iniciarte en
+            este deporte o mejorar tu nivel y cumplir las metas que te
+            propongas.
+            <p></p>
+          </div>
+        </div>
+        <div class="card animate__animated animate__pulse animate__delay-1s">
+          <div class="textcard">
+            <div class="slide">
+              <div class="slide-inner">
+                <input
+                  class="slide-open"
+                  type="radio"
+                  id="slide-1"
+                  name="slide"
+                  aria-hidden="true"
+                  hidden=""
+                  checked="checked"
+                />
+                <div class="slide-item">
+                  <br />
+                  <h2>Bertea Gustavo</h2>
+                  <br />
+                  <p><strong>ELO Lichess 1922</strong></p>
+                  <br />
+                  <img src="img/profes/prof1.jpeg" class="imgprof" />
+                </div>
+                <input
+                  class="slide-open"
+                  type="radio"
+                  id="slide-2"
+                  name="slide"
+                  aria-hidden="true"
+                  hidden=""
+                />
+                <div class="slide-item">
+                  <br />
+                  <h2>López Roberto</h2>
+                  <br />
+                  <p><strong>ELO Lichess 1960</strong></p>
+                  <br />
+                  <img src="img/profes/prof2.jpeg" class="imgprof" />
+                </div>
+                <input
+                  class="slide-open"
+                  type="radio"
+                  id="slide-3"
+                  name="slide"
+                  aria-hidden="true"
+                  hidden=""
+                />
+                <div class="slide-item">
+                  <br />
+                  <h2>Sotelo Noé</h2>
+                  <br />
+                  <p><strong>ELO FIDE 2081</strong></p>
+                  <br />
+                  <img src="img/profes/prof3.jpeg" class="imgprof" />
+                </div>
+                <input
+                  class="slide-open"
+                  type="radio"
+                  id="slide-4"
+                  name="slide"
+                  aria-hidden="true"
+                  hidden=""
+                />
+                <div class="slide-item">
+                  <br />
+                  <h1>Acosta Franco</h1>
+                  <p><strong>ELO FIDE 1956</strong></p>
+                  <br />
+                  <img src="img/profes/prof4.jpeg" class="imgprof" />
+                </div>
+                <input
+                  class="slide-open"
+                  type="radio"
+                  id="slide-5"
+                  name="slide"
+                  aria-hidden="true"
+                  hidden=""
+                />
+                <div class="slide-item">
+                  <br />
+                  <h2>Argento Mariel</h2>
+                  <br />
+                  <p><strong>ELO Lichess 2305</strong></p>
+                  <br />
+                  <img src="img/profes/prof5.jpg" class="imgprof" />
+                </div>
+
+                <label for="slide-5" class="slide-control prev control-1"
+                  >‹</label
+                >
+                <label for="slide-2" class="slide-control next control-1"
+                  >›</label
+                >
+                <label for="slide-1" class="slide-control prev control-2"
+                  >‹</label
+                >
+                <label for="slide-3" class="slide-control next control-2"
+                  >›</label
+                >
+                <label for="slide-2" class="slide-control prev control-3"
+                  >‹</label
+                >
+                <label for="slide-4" class="slide-control next control-3"
+                  >›</label
+                >
+                <label for="slide-3" class="slide-control prev control-4"
+                  >‹</label
+                >
+                <label for="slide-5" class="slide-control next control-4"
+                  >›</label
+                >
+                <label for="slide-4" class="slide-control prev control-5"
+                  >‹</label
+                >
+                <label for="slide-1" class="slide-control next control-5"
+                  >›</label
+                >
+
+                <ol class="slide-indicador">
+                  <li>
+                    <label for="slide-1" class="slide-circulo">•</label>
+                  </li>
+                  <li>
+                    <label for="slide-2" class="slide-circulo">•</label>
+                  </li>
+                  <li>
+                    <label for="slide-3" class="slide-circulo">•</label>
+                  </li>
+                  <li>
+                    <label for="slide-4" class="slide-circulo">•</label>
+                  </li>
+                  <li>
+                    <label for="slide-5" class="slide-circulo">•</label>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div class="card animate__animated animate__pulse animate__delay-1s">
+            <div class="textcard">
+              <p class="parrafocard"></p>
+              <h3>Modalidades</h3>
+
+              Trabajamos tanto virtual como presencial, eso depende de cada
+              profe!
+            </div>
+          </div>
+          <div class="card animate__animated animate__pulse animate__delay-1s">
+            <div class="textcard">
+              <p class="parrafocard"></p>
+              <h3>¿Cuál es nuestra misión?</h3>
+
+              Difundir gracias a nuestra enseñanza este deporte hermoso y
+              preparar nuevas generaciones con buenas bases teorica y práctica.
+            </div>
+          </div>
+        </div>
+
+        <button
+          onclick="topFunction()"
+          id="myBtn"
+          title="Go to top"
+          class="top"
+        >
+          <ion-icon name="caret-up-circle-outline"></ion-icon>
+        </button>
+      </div>
+
+      <div class="footer">
+        <p>
+          &copy; Todos los derechos reservados
+          <a href="https://portafolio-jobs.netlify.app/" id="website"
+            >Franeli</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="app.js"></script>
+  <script src="login.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
