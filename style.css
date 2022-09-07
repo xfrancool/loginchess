@@ -376,6 +376,18 @@ a {
   .imglogo {
     width: 290px;
   }
+  .main__social {
+    display: grid;
+    grid-auto-flow: row;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    grid-auto-columns: max-content;
+    gap: 2em;
+    margin-top: 30px;
+  }
 }
 
 .cap {
