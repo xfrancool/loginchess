@@ -376,18 +376,6 @@ a {
   .imglogo {
     width: 290px;
   }
-  .main__social {
-    display: grid;
-    grid-auto-flow: row;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    grid-auto-columns: max-content;
-    gap: 2em;
-    margin-top: 30px;
-  }
 }
 
 .cap {
@@ -548,4 +536,18 @@ a {
 .main__icon {
   width: 40px;
   height: 35px;
+}
+@media screen and (min-width: 600px) {
+  .main__social {
+    display: grid;
+    grid-auto-flow: row;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    grid-auto-columns: max-content;
+    gap: 2em;
+    margin-top: 30px;
+  }
 }
