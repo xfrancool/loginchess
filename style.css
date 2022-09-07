@@ -539,12 +539,7 @@ a {
 }
 @media screen and (max-width: 600px) {
   .main__social {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    gap: 2em;
-    margin-top: 30px;
+    display: grid;
+    grid-auto-flow: row;
   }
 }
