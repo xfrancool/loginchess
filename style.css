@@ -539,14 +539,11 @@ a {
 }
 @media screen and (min-width: 600px) {
   .main__social {
-    display: grid;
-    grid-auto-flow: row;
-
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 
-    grid-auto-columns: max-content;
     gap: 2em;
     margin-top: 30px;
   }
