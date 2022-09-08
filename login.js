@@ -10,6 +10,8 @@ function login() {
     window.location = "grupos/primero/grupo1.html";
   } else if (user == "Sergio29m" && pass == "5445") {
     window.location = "grupos/sergio/sergio.html";
+  } else if (user == "EricLista" && pass == "1518") {
+    window.location = "grupos/eric/eric.html";
   } else if (user == "elimaryarg" && pass == "hola12") {
     window.location = "inicio.html";
   } else {
