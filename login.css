@@ -107,8 +107,8 @@ body {
   display: grid;
   grid-auto-flow: column;
   justify-content: center;
-  /* display: flex;
-  flex-wrap: wrap; */
+  display: flex;
+  flex-wrap: wrap;
   grid-auto-columns: max-content;
   gap: 1em;
 }
@@ -117,10 +117,16 @@ body {
   border: 1px solid #fff;
   border-radius: 10px;
   padding: 0.6em 1.5em;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
 }
 
 .main__link:hover {
   background-color: #fff;
+  color: black;
 }
 
 .main__icon {
@@ -153,5 +159,10 @@ body {
   }
   .main__input--send:hover {
     background-color: #1a9a47;
+  }
+
+  .main__social {
+    display: grid;
+    grid-auto-flow: row;
   }
 }
