@@ -12,6 +12,8 @@ function login() {
     window.location = "grupos/sergio/sergio.html";
   } else if (user == "EricLista" && pass == "1518") {
     window.location = "grupos/eric/eric.html";
+  } else if (user == "Mateo1" && pass == "1519") {
+    window.location = "grupos/mateo/mateo.html";
   } else if (user == "elimaryarg" && pass == "hola12") {
     window.location = "inicio.html";
   } else {
