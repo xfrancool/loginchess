@@ -20,10 +20,28 @@
       table thead {
         background: #302b63;
         color: white;
-
+      }
+      tr:nth-child(even) {
+        background-color: rgb(223, 223, 225);
+      }
+      tr:hover {
+        font-weight: 500;
+      }
+      h1 {
+        text-align: center;
       }
 
-      h1 { text-align: center;}}
+      input {
+        width: 50vw;
+        padding: 3px;
+        outline: none;
+        border: 5px solid #ccd1e4;
+        font-weight: 600;
+      }
+
+      .ocultar {
+        display: none;
+      }
 
       @media screen and (max-width: 600px) {
         body {
@@ -41,6 +59,12 @@
     >
       <table class="table table-bordered table-striped container-fluid">
         <h1>DATABASE DE AGENDA</h1>
+        <input
+          type="text"
+          name="buscador"
+          id="buscar"
+          placeholder="Buscar..."
+        />
         <thead class="">
           <tr>
             <th>ID</th>
@@ -57,6 +81,7 @@
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <script>
       let url = "https://xfrancool.github.io/alumnos.json";
@@ -74,6 +99,16 @@
         document.getElementById("data").innerHTML = body;
         //console.log(body)
       };
+      //Busqueda
+
+      $(document).ready(function () {
+        $("#buscar").on("keyup", function () {
+          var value = $(this).val().toLowerCase();
+          $("#data tr").filter(function () {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+          });
+        });
+      });
     </script>
   </body>
 </html>
