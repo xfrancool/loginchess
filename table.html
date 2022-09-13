@@ -31,6 +31,8 @@
       h1 {
         text-align: center;
         font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        margin-top: 8px;
+        margin-bottom: 18px;
       }
 
       input {
@@ -40,13 +42,27 @@
         border: 5px solid #ccd1e4;
         font-weight: 600;
         margin-bottom: 8px;
+
         float: right;
         clear: both;
         border-radius: 12px;
       }
 
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
       .ocultar {
         display: none;
+      }
+
+      span {
+        float: left;
+        margin-right: 10px;
+        text-transform: capitalize;
+        font-weight: bold;
       }
 
       @media screen and (max-width: 700px) {
@@ -57,9 +73,17 @@
           width: 100%;
         }
         input {
-          width: 45vw;
+          width: 40vw;
           float: left;
           clear: both;
+        }
+        span {
+          float: right;
+
+          text-transform: capitalize;
+          font-weight: bold;
+          margin-bottom: 5px;
+          margin-right: 5px;
         }
       }
     </style>
@@ -70,12 +94,15 @@
     >
       <table class="table table-bordered table-striped container-fluid">
         <h1>DATABASE DE AGENDA</h1>
-        <input
-          type="text"
-          name="buscador"
-          id="buscar"
-          placeholder="Buscar..."
-        />
+        <div class="nav">
+          <input
+            type="text"
+            name="buscador"
+            id="buscar"
+            placeholder="Buscar..."
+          />
+          <span id="span"></span>
+        </div>
         <thead class="">
           <tr>
             <th>ID</th>
@@ -119,6 +146,16 @@
             $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
           });
         });
+      });
+
+      //Dia de la semana
+      var span = document.getElementById("span");
+
+      const FECHA = new Date();
+      span.innerHTML = FECHA.toLocaleDateString("es-MX", {
+        weekday: "long",
+        month: "long",
+        day: "numeric",
       });
     </script>
   </body>
