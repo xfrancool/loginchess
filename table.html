@@ -43,7 +43,6 @@
         font-weight: 600;
         margin-bottom: 8px;
 
-        float: right;
         clear: both;
         border-radius: 12px;
       }
@@ -59,8 +58,7 @@
       }
 
       span {
-        float: left;
-        margin-right: 10px;
+        margin-left: 5px;
         text-transform: capitalize;
         font-weight: bold;
       }
@@ -74,7 +72,7 @@
         }
         input {
           width: 40vw;
-          float: left;
+
           clear: both;
         }
         span {
@@ -83,7 +81,7 @@
           text-transform: capitalize;
           font-weight: bold;
           margin-bottom: 5px;
-          margin-right: 5px;
+          margin-left: 2px;
         }
       }
     </style>
@@ -95,13 +93,13 @@
       <table class="table table-bordered table-striped container-fluid">
         <h1>DATABASE DE AGENDA</h1>
         <div class="nav">
+          <span id="span"></span>
           <input
             type="text"
             name="buscador"
             id="buscar"
             placeholder="Buscar..."
           />
-          <span id="span"></span>
         </div>
         <thead class="">
           <tr>
@@ -137,6 +135,7 @@
         document.getElementById("data").innerHTML = body;
         //console.log(body)
       };
+
       //Busqueda
 
       $(document).ready(function () {
