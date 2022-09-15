@@ -11,11 +11,16 @@ html {
 body {
   background-image: linear-gradient(
     to right top,
-    #09244d,
+
+    #183c72,
+    #16367c,
+    #1b2b7a,
+    #2b257e,
+    #381778 /*  #09244d,
     #0a245a,
     #152366,
     #251f70,
-    #381778
+    #381778 */
   );
   background-repeat: repeat;
 
@@ -188,7 +193,7 @@ body {
 
 .imglogo {
   border-radius: 50px;
-
+  border: 2px solid white;
   width: 420px;
 }
 h1 {
