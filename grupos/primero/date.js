@@ -55,7 +55,7 @@ Ver video
 </h3>
 
 <h4 class="cap">
-Descargar PNG
+Descargar GIF
 <a  href="${data.gif}" 
 target="_blank" ><img src="../img/descarga1.png" class="logozoom" alt=""
 /></a>
