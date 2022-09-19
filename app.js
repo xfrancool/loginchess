@@ -27,6 +27,8 @@ for (const buttons of submenu) {
   });
 }
 
+// SOLO PARA ELIZABETH
+
 const date = [
   {
     Nombre: "Sergio",
