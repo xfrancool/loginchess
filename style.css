@@ -209,9 +209,21 @@ h1 {
 .grupo {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
   align-items: center;
   margin-top: 40px;
+}
+.cardx {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 h2 {
   display: flex;
@@ -338,6 +350,12 @@ a {
 }
 @media screen and (max-width: 600px) {
   .grupo {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 28px;
+    align-items: center;
+  }
+  .cardx {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 28px;
