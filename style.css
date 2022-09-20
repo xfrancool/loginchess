@@ -342,11 +342,36 @@ a {
   background: black;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   width: 100%;
+  font-size: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #website {
-  color: rgb(177, 81, 177);
+  color: rgb(31, 196, 187);
+  margin-left: 8px;
+}
+.social-links {
+  margin-left: 80px;
+}
+.social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
 }
 @media screen and (max-width: 600px) {
   .grupo {
@@ -398,6 +423,10 @@ a {
 
   .imglogo {
     width: 290px;
+  }
+
+  .social-links {
+    margin-left: 0px;
   }
 }
 

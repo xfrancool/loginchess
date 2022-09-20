@@ -8,6 +8,12 @@
     <link rel="shortcut icon" href="img/logoweb.ico" />
     <link rel="stylesheet" href="style.css" />
 
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito&family=Open+Sans&family=Roboto+Mono&family=Secular+One&family=Square+Peg&family=Titillium+Web:wght@200&display=swap"
@@ -29,56 +35,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="nav">
-        <nav id="menu">
-          <input
-            type="checkbox"
-            id="responsive-menu"
-            onclick="updatemenu()"
-          /><label></label>
-          <ul>
-            <li><a href="#">Inicio</a></li>
-            <li>
-              <a class="dropdown-arrow" href="#">Material de trabajo</a>
-              <ul class="sub-menus">
-                <li><a href="materiales.html">Materiales básicos</a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-              </ul>
-            </li>
-
-            <li>
-              <a class="dropdown-arrow" href="#">Juegos</a>
-              <ul class="sub-menus">
-                <li><a href="video.html">Videos</a></li>
-                <li><a href="conceptos.html">Conceptos iniciales</a></li>
-                <li><a href="juegos.html">Juegos Iniciales</a></li>
-                <li><a href="finales.html">Juegos de finales</a></li>
-              </ul>
-            </li>
-            <li>
-              <a class="dropdown-arrow" href="#">Grupos</a>
-              <ul class="sub-menus">
-                <li><a href="grupos/primero/grupo1.html">Grupo1</a></li>
-                <li><a href="#">G2</a></li>
-                <li><a href="#">G3</a></li>
-                <li><a href="#">G4</a></li>
-              </ul>
-            </li>
-            <li>
-              <a class="dropdown-arrow" href="#">Premium</a>
-              <ul class="sub-menus">
-                <li><a href="grupos/sergio/sergio.html">Sergio</a></li>
-                <li><a href="grupos/eric/eric.html">Eric</a></li>
-                <li><a href="grupos/mateo/mateo.html">Mateo</a></li>
-                <li><a href="#"></a></li>
-              </ul>
-            </li>
-            <li><a href="nosotros.html">Acerca de nosotros</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-          </ul>
-        </nav>
-      </div>
+      <div class="nav" id="navT"></div>
       <div class="aside">
         <h1
           id="tiger"
@@ -183,19 +140,42 @@
         />
       </div>
 
-      <div class="footer">
-        <p>
+      <div class="footer" id="apk">
+        <!-- 
+          
+          FOOTER ORIGINAL
+          
+          <p>
           &copy; Todos los derechos reservados
           <a href="https://portafolio-jobs.netlify.app/" id="website"
             >Franeli</a
           >
         </p>
+
+        <div class="social-links">
+          <a href="https://www.instagram.com/academia_alfil_dama/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com/profile.php?id=100085386344509"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://academia-alfil-dama.netlify.app/"
+            ><i class="fa fa-globe"></i
+          ></a>
+          <a
+            href="https://api.whatsapp.com/send?phone=+5493548500137&text=Hola, queria consultarte sobre un inconveniente con la página"
+            ><i class="fab fa-whatsapp" aria-hidden="true"></i
+          ></a> 
+        </div>
+         -->
       </div>
     </div>
   </body>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="app.js"></script>
-  <script src="login.js"></script>
+  <script src="./app.js"></script>
+  <script src="./login.js"></script>
+  <script src="./footer.js"></script>
+  <script src="./nav.js"></script>
 
   <script>
     AOS.init();
