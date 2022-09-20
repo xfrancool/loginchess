@@ -19,19 +19,19 @@ function Template(footer) {
 </p>
 
 <div class="social-links">
-  <a href="${footer.urlsocial2}"
-    ><i class="fab fa-instagram"></i
-  ></a>
-  <a href="${footer.urlsocial3}"
-    ><i class="fab fa-facebook-f"></i
-  ></a>
-  <a href="${footer.urlsocial4}"
-    ><i class="fa fa-globe"></i
-  ></a>
-  <a
-    href="${footer.urlsocial5}"
-    ><i class="fab fa-whatsapp" aria-hidden="true"></i
-  ></a> 
+<a href="${footer.urlsocial4}"
+><i class="fa fa-globe" id="linkoff"></i
+></a>
+<a href="${footer.urlsocial3}"
+><i class="fab fa-facebook-f"></i
+></a>
+<a
+href="${footer.urlsocial5}"
+><i class="fab fa-whatsapp" aria-hidden="true" id="linkoff"></i
+></a> 
+<a href="${footer.urlsocial2}"
+  ><i class="fab fa-instagram"></i
+></a>
 </div>
  
 `;
