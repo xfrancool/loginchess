@@ -12,24 +12,24 @@ const footer = [
 
 function Template(footer) {
   return `
-  &copy; Todos los derechos reservados
-  <a href="${footer.urlsocial1}" id="website"
+  </p> &copy; Todos los derechos reservados
+  <a href="${footer.urlsocial1}" id="website"  target="_blank"
     >Franeli</a
   >
 </p>
 
 <div class="social-links">
-<a href="${footer.urlsocial4}"
+<a href="${footer.urlsocial4}"  target="_blank"
 ><i class="fa fa-globe" id="linkoff"></i
 ></a>
-<a href="${footer.urlsocial3}"
+<a href="${footer.urlsocial3}"  target="_blank"
 ><i class="fab fa-facebook-f"></i
 ></a>
 <a
-href="${footer.urlsocial5}"
+href="${footer.urlsocial5}"  target="_blank"
 ><i class="fab fa-whatsapp" aria-hidden="true" id="linkoff"></i
 ></a> 
-<a href="${footer.urlsocial2}"
+<a href="${footer.urlsocial2}"  target="_blank"
   ><i class="fab fa-instagram"></i
 ></a>
 </div>
