@@ -22,10 +22,10 @@ const data = [
   },
   {
     clase: "Clase4",
-    tema: "",
-    estudio: "",
+    tema: "Lasker - Steinitz (1884)",
+    estudio: "https://lichess.org/study/th8BnJ7w/OIJHGTVh",
     video: "video.html#clase4",
-    gif: "",
+    gif: "https://www.mediafire.com/view/qywmlqjfq75vmxv/Clase_4.gif/file",
   },
 ];
 
