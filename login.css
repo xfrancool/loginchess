@@ -185,8 +185,9 @@ button {
   overflow: hidden;
   transition: all 0.2s;
 }
-button:hover {
-  background: #1a9a47;
+
+.Class1:hover {
+  background-color: #1a9a47;
 }
 
 button span {
