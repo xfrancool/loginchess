@@ -11,21 +11,21 @@ const data = [
     tema: "",
     estudio: "https://lichess.org/study/TsvZgNEb/u3PTrDKx",
     video: "video.html#clase2",
-    gif: "https://www.mediafire.com/view/y33wu2fwvkj54g1/CLASE_N2_GIF.gif/file",
+    gif: "https://www.mediafire.com/file/y33wu2fwvkj54g1/CLASE_N2_GIF.gif/file",
   },
   {
     clase: "Clase3",
     tema: "",
     estudio: "https://lichess.org/study/TsvZgNEb/rGZOFbia",
     video: "video.html#clase3",
-    gif: "https://www.mediafire.com/view/phzjwob47im1c9i/Clase_-_3.gif/file",
+    gif: "https://www.mediafire.com/file/phzjwob47im1c9i/Clase_-_3.gif/file",
   },
   {
     clase: "Clase4",
     tema: "",
-    estudio: "",
+    estudio: "https://lichess.org/study/TsvZgNEb/a2k8WdTo",
     video: "video.html#clase4",
-    gif: "",
+    gif: "https://www.mediafire.com/file/v5m7xsc4shhqeb1/Clase_4.gif/file",
   },
 ];
 
