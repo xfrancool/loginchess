@@ -6,7 +6,6 @@ function login() {
   btn = document.getElementById("loading");
 
   if (user == "Sherleck" && pass == "1516") {
-    btn.style.backgroundColor = "#1a9a47";
     window.location = "grupos/primero/grupo1.html";
   } else if (user == "Joshua" && pass == "1517") {
     window.location = "grupos/primero/grupo1.html";
@@ -20,6 +19,8 @@ function login() {
     window.location = "inicio.html";
   } else {
     alert("Por favor, ingrese usuario y contraseña corectos");
-    btn.style.backgroundColor = "rgb(224, 57, 57)";
+
+    btn.classList.remove("class1");
+    btn.classList.add("class2");
   }
 }
