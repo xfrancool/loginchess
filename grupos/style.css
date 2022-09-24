@@ -213,6 +213,7 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
   margin-top: 40px;
+  padding: 0 40px 0 40px;
 }
 .cardx {
   display: flex;
@@ -250,7 +251,7 @@ h2 {
 .instructivo {
   border-radius: 15px;
   margin-top: 80px;
-  width: 60%;
+  width: 50%;
 }
 #textfinal {
   font-size: 50px;
