@@ -52,7 +52,9 @@ function Template(navT) {
             </li>
             <li><a href="nosotros.html">Acerca de nosotros</a></li>
             <li><a href="contacto.html">Contacto</a></li>
+            
           </ul>
+       
         </nav>
   `;
 }

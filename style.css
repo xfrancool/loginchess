@@ -138,6 +138,8 @@ body {
   background: #f2f2f2;
   color: #444444;
 }
+#user {
+}
 @media screen and (max-width: 800px) {
   #menu {
     position: relative;

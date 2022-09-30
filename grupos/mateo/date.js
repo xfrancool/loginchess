@@ -1,27 +1,27 @@
 const data = [
   {
-    clase: "Clase1",
+    clase: "Clase 1",
     tema: "",
     estudio: "",
     video: "video.html#clase1",
     gif: "",
   },
   {
-    clase: "Clase2",
+    clase: "Clase 2",
     tema: "",
     estudio: "",
     video: "video.html#clase2",
     gif: "",
   },
   {
-    clase: "Clase3",
+    clase: "Clase 3",
     tema: "",
     estudio: "",
     video: "video.html#clase3",
     gif: "",
   },
   {
-    clase: "Clase4",
+    clase: "Clase 4",
     tema: "",
     estudio: "",
     video: "video.html#clase4",
