@@ -9,7 +9,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-image: linear-gradient(
+  /*   background-image: linear-gradient(
     to right top,
 
     #183c72,
@@ -20,8 +20,10 @@ body {
     #0a245a,
     #152366,
     #251f70,
-    #381778 */
-  );
+    #381778 
+  ); */
+
+  background: linear-gradient(to right, #2c4f7c, #3f0eb3);
   background-repeat: repeat;
 
   height: 100%;
@@ -137,6 +139,8 @@ body {
 #menu ul.sub-menus a:hover {
   background: #f2f2f2;
   color: #444444;
+}
+#user {
 }
 @media screen and (max-width: 800px) {
   #menu {
