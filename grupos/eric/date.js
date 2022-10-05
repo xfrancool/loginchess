@@ -1,10 +1,10 @@
 const data = [
   {
     clase: "Clase 1",
-    tema: "",
-    estudio: "",
+    tema: "Jugar contra las piezas enemigas",
+    estudio: "https://lichess.org/bITA1wy4THVj",
     video: "video.html#clase1",
-    gif: "",
+    gif: "https://www.mediafire.com/view/d4zm1mfux2nec8j/Clase1.gif/file",
   },
   {
     clase: "Clase 2",
