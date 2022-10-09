@@ -24,6 +24,8 @@ function Template(Temp) {
         data-aos-easing="ease-in-back"
         data-aos-delay="300"
         data-aos-offset="0"/>
+        </br>
+        </br>
       
     </div>
     <div class="card">
@@ -40,6 +42,8 @@ function Template(Temp) {
         </p>
       </div>
       <img src="../img/materiales/2.jpg" class="imgcard animate__animated animate__pulse animate__delay-3s" alt="" />
+      </br>
+      </br>
     </div>
     <div class="card">
       <div class="textcard animate__animated animate__flipInX animate__delay-2s">
@@ -54,6 +58,8 @@ Una ves cargado el tablero puedes elegir en la parte inferior si practicar con e
         </p>
       </div>
       <img src="../img/materiales/3.jpg" class="imgcard animate__animated animate__pulse animate__delay-3s" alt="" />
+      </br>
+      </br>
     </div>
     <div class="card">
       <div class="textcard animate__animated animate__flipInX animate__delay-2s">
@@ -67,6 +73,8 @@ Apasionante disputa donde hay que lograr realizar siempre jaque mate con la Dama
         </p>
       </div>
       <img src="../img/materiales/4.jpg" class="imgcard animate__animated animate__pulse animate__delay-3s" alt="" />
+      </br>
+      </br>
     </div>
     <div class="card">
       <div class="textcard animate__animated animate__flipInX animate__delay-2s">
@@ -81,6 +89,8 @@ Apasionante disputa donde hay que lograr realizar siempre jaque mate con la Dama
         </p>
       </div>
       <img src="../img/materiales/5.jpg" class="imgcard animate__animated animate__pulse animate__delay-3s" alt="" />
+      </br>
+      </br>
     </div>
     <div class="card">
       <div class="textcard animate__animated animate__flipInX animate__delay-2s">
@@ -95,6 +105,8 @@ Este se puede considerar un juego de entrenamiento de basilares tácticas ajedre
         </p>
       </div>
       <img src="../img/materiales/6.jpg" class="imgcard animate__animated animate__pulse animate__delay-3s" alt="" />
+      </br>
+      </br>
     </div>
     <div class="card">
       <div class="textcard animate__animated animate__flipInX animate__delay-2s">
@@ -112,6 +124,8 @@ Este se puede considerar un juego de entrenamiento de basilares tácticas ajedre
         </p>
       </div>
       <img src="../img/materiales/7.jpg" class="imgcard animate__animated animate__pulse animate__delay-3s" alt="" />
+      </br>
+      </br>
     </div>
     <div class="card">
       <div class="textcard animate__animated animate__flipInX animate__delay-2s">
@@ -130,6 +144,8 @@ Este se puede considerar un juego de entrenamiento de basilares tácticas ajedre
         </p>
       </div>
       <img src="../img/materiales/8.jpg" class="imgcard animate__animated animate__pulse animate__delay-3s" alt="" />
+      </br>
+      </br>
     </div>
     <div class="card">
       <div class="textcard animate__animated animate__flipInX animate__delay-2s">
@@ -148,6 +164,8 @@ Consideramos este juego útil para entrenamientos basilares de tácticas ajedrec
         </p>
       </div>
       <img src="../img/materiales/9.jpg" class="imgcard animate__animated animate__pulse animate__delay-3s" alt="" />
+      </br>
+      </br>
     </div>
     <div class="card">
       <div class="textcard animate__animated animate__flipInX animate__delay-2s">
@@ -167,6 +185,8 @@ Una ves cargado el tablero puedes elegir en la parte inferior si practicar con e
         </p>
       </div>
       <img src="../img/materiales/10.jpg" class="imgcard animate__animated animate__pulse animate__delay-3s" alt="" />
+      </br>
+      </br>
     </div>
     <div class="card">
       <div class="textcard animate__animated animate__flipInX animate__delay-2s">
@@ -190,6 +210,7 @@ Una ves cargado el tablero puedes elegir en la parte inferior si practicar con e
         </p>
       </div>
       <img src="../img/materiales/11.jpg" class="imgcard animate__animated animate__pulse animate__delay-3s" alt="" />
+      
     </div>
     <div class="card animate__animated animate__flipInX animate__delay-2s"><div class="textcard">
       <p><a href="https://lichess.org/practice/checkmates/piece-checkmates-i/BJy6fEDf/dW7KIuoY" target="_blank">Click aqui para hacer ejercicios  de finales</a></p>
