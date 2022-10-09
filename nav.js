@@ -36,7 +36,7 @@ function Template(navT) {
               <a class="dropdown-arrow" href="#">Grupos</a>
               <ul class="sub-menus">
                 <li><a href="grupos/primero/grupo1.html">Grupo1</a></li>
-                <li><a href="#">G2</a></li>
+                <li><a href="grupos/primeroA/grupoA.html">Jose Maria</a></li>
                 <li><a href="#">G3</a></li>
                 <li><a href="#">G4</a></li>
               </ul>

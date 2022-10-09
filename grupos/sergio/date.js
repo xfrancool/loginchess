@@ -29,10 +29,17 @@ const data = [
   },
   {
     clase: "Clase 5",
-    tema: "Ejercicios",
-    estudio: "https://lichess.org/training",
+    tema: "",
+    estudio: "https://lichess.org/training/daily",
     video: "video.html#clase5",
-    gif: "",
+    gif: "#",
+  },
+  {
+    clase: "Clase 6",
+    tema: "",
+    estudio: "https://lichess.org/study/TsvZgNEb/a2k8WdTo",
+    video: "video.html#clase6",
+    gif: "https://www.mediafire.com/file/80valzr9fbfqn60/Clase_6.pgn/file",
   },
 ];
 function Template(data) {
