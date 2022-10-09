@@ -50,9 +50,15 @@ const date = [
   },
   {
     Nombre: "Jero & Fausti",
-    Horario: "Viernes (16:30 hs.)",
+    Horario: "Domingo (19hs.)",
     Categoria: "",
     Meet: "https://meet.google.com/cnu-qucx-bnr",
+  },
+  {
+    Nombre: "Jose Maria",
+    Horario: "Jueves (15hs.)",
+    Categoria: "",
+    Meet: "https://meet.google.com/znf-heas-ubv?authuser=0&hl=es_419",
   },
   {
     Nombre: "Ciro",
