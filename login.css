@@ -233,6 +233,7 @@ button:active {
 
 #registro {
   text-decoration: none;
-  color: rgb(155, 33, 17);
+  color: rgb(8, 6, 112);
   line-height: bold;
+  font-size: 16px;
 }
