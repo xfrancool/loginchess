@@ -230,3 +230,9 @@ button:active {
     transform: translateY(-0.1em);
   }
 }
+
+#registro {
+  text-decoration: none;
+  color: rgb(155, 33, 17);
+  line-height: bold;
+}

@@ -31,38 +31,43 @@
         <h2
           class="main__title animate__animated animate__rubberBand animate__delay-2s"
         >
-          Bienvenido
+          Formulario de registro
         </h2>
-        <p class="main__paragraph">¡Te deseamos una buena jornada!</p>
+        <p class="main__paragraph">
+          El alta de usuario puede tardar unas horas
+        </p>
 
-        <form class="main__form">
+        <form
+          class="main__form"
+          action="https://formsubmit.co/academiadeajedrezalfildama@gmail.com"
+          method="POST"
+        >
           <input
             type="text"
-            placeholder="Ingresa tu usuario"
+            placeholder="Ingresa un usuario"
             class="main__input"
             id="usuario"
+            name="name"
+            required
           />
 
           <input
-            type="password"
-            placeholder="Contraseña"
+            type="email"
+            placeholder="Email"
             class="main__input"
             id="password"
+            name="email"
+            required
           />
+          <textarea
+            name="message"
+            id=""
+            cols="25"
+            rows="3"
+            placeholder="Escribe la contraseña que deseas usar"
+          ></textarea>
 
-          <!--  <input
-            value="Iniciar sesión"
-            class="main__input main__input--send"
-            type="button"
-            onclick="login()"
-          /> -->
-
-          <button
-            type="button"
-            onclick="login()"
-            class="class1 class2"
-            id="loading"
-          >
+          <button type="submit" id="loading">
             <div class="svg-wrapper-1">
               <div class="svg-wrapper" id="flecha">
                 <svg
@@ -79,11 +84,10 @@
                 </svg>
               </div>
             </div>
-            <span>Iniciar sesión</span>
+            <span>Registarme..</span>
           </button>
         </form>
-
-        <a href="registro.html" id="registro">Registar</a>
+        <a href="index.html">Inicio</a>
         <p class="main__paragraph">¡Escríbenos!</p>
 
         <article
