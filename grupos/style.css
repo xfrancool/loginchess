@@ -9,7 +9,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  /*   background-image: linear-gradient(
+  background-image: linear-gradient(
     to right top,
 
     #183c72,
@@ -20,10 +20,8 @@ body {
     #0a245a,
     #152366,
     #251f70,
-    #381778 
-  ); */
-
-  background: linear-gradient(to right, #2c4f7c, #3f0eb3);
+    #381778 */
+  );
   background-repeat: repeat;
 
   height: 100%;
@@ -62,6 +60,8 @@ body {
   height: 50px;
   padding-left: 18px;
   border-radius: 0px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
 }
 #menu ul,
 #menu li {
@@ -83,7 +83,7 @@ body {
   padding: 0 14px;
   text-decoration: none;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
 }
 #menu a.dropdown-arrow:after {
@@ -198,7 +198,7 @@ body {
 .imglogo {
   border-radius: 50px;
   border: 2px solid white;
-  width: 420px;
+  width: 415px;
 }
 h1 {
   font-size: 36px;
@@ -206,7 +206,7 @@ h1 {
   margin-bottom: 20px;
 }
 #tiger {
-  font-size: 55px;
+  font-size: 46px;
   color: rgba(241, 235, 235, 0.925);
   margin-bottom: 20px;
 }
@@ -258,7 +258,7 @@ h2 {
   width: 50%;
 }
 #textfinal {
-  font-size: 50px;
+  font-size: 35px;
   margin-bottom: 25px;
 }
 /*****Btn**********/
@@ -322,7 +322,7 @@ iframe {
   text-align: center;
 }
 .card {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -350,6 +350,7 @@ a {
   padding: 13px;
   width: 100%;
   font-size: 16px;
+  font-family: "Nunito", sans-serif;
 
   display: flex;
   justify-content: center;
