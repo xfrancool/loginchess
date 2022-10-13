@@ -30,7 +30,7 @@ const data = [
   {
     clase: "Clase 5",
     tema: "",
-    estudio: "https://lichess.org/training/daily",
+    estudio: "https://lichess.org/training/318112619",
     video: "video.html#clase5",
     gif: "#",
   },
