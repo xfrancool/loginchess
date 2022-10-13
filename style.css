@@ -611,4 +611,47 @@ a {
     display: grid;
     grid-auto-flow: row;
   }
+  .frame {
+    width: 100%;
+  }
 }
+
+/********Contaco*****/
+
+.contact__input {
+  width: 300px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  margin-bottom: 4px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#mms {
+}
+.contact__button {
+  display: block;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.sub {
+  display: inline-block;
+
+  color: #fff;
+  background-color: rgb(62, 62, 216);
+  padding: 0.3rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #fff;
+  position: relative;
+  left: 100px;
+  margin-top: 2px;
+}
+.contact__container {
+  position: relative;
+  left: 8px;
+}
+/*********************/
