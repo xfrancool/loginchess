@@ -34,6 +34,13 @@ const data = [
     video: "video.html#clase5",
     gif: "https://www.mediafire.com/file/xvcpes4ragr1iyh/Clase_5.pgn/file",
   },
+  {
+    clase: "Clase 6",
+    tema: "Semi-eslava",
+    estudio: "https://lichess.org/study/4enu7ISA/h2RDmVSL",
+    video: "video.html#clase6",
+    gif: "https://www.mediafire.com/file/cakqzgnsone9c92/Clase_6.pgn/file",
+  },
 ];
 
 function Template(data) {
