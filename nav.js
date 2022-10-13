@@ -24,7 +24,7 @@ function Template(navT) {
             </li>
 
             <li>
-              <a class="dropdown-arrow" href="#">Juegos</a>
+              <a class="dropdown-arrow" href="#">Material Didáctico</a>
               <ul class="sub-menus">
                 <li><a href="video.html">Videos</a></li>
                 <li><a href="conceptos.html">Conceptos iniciales</a></li>
