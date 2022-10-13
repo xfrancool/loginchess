@@ -15,12 +15,8 @@ function Template(navT) {
   <ul>
     
     <li>
-      <a class="dropdown-arrow" href="eric.html">Inicio</a>
-      <ul class="sub-menus">
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-      </ul>
+      <a  href="eric.html">Inicio</a>
+      
     </li>
 
     <li>
