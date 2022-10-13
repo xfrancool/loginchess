@@ -30,7 +30,7 @@ const data = [
   {
     clase: "Clase 5",
     tema: "",
-    estudio: "https://lichess.org/training/318112619",
+    estudio: "https://lichess.org/training/daily",
     video: "video.html#clase5",
     gif: "#",
   },
@@ -40,6 +40,13 @@ const data = [
     estudio: "https://lichess.org/study/TsvZgNEb/a2k8WdTo",
     video: "video.html#clase6",
     gif: "https://www.mediafire.com/file/80valzr9fbfqn60/Clase_6.pgn/file",
+  },
+  {
+    clase: "Clase 7",
+    tema: "Jugadas indirectas & directas",
+    estudio: "https://lichess.org/study/TsvZgNEb/hfLzVJXR",
+    video: "video.html#clase7",
+    gif: "https://www.mediafire.com/file/092mz65ek2pof01/Clase_7.pgn/file",
   },
 ];
 function Template(data) {
@@ -67,7 +74,7 @@ Ver video
 </h3>
 
 <h4 class="cap">
-Descargar GIF
+Descargar Material
 <a  href="${data.gif}" 
 target="_blank" ><img src="../img/descarga1.png" class="logozoom" alt=""
 /></a>
