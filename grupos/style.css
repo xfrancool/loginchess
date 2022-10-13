@@ -438,6 +438,7 @@ a {
     margin: 0 0 0 12px;
 
     justify-content: center;
+    display: none;
   }
 
   #website {
