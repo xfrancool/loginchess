@@ -655,3 +655,17 @@ a {
   left: 8px;
 }
 /*********************/
+#googleplay {
+  margin-left: 10px;
+  margin-top: 4px;
+  width: 110px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+#titleapk {
+  text-decoration: underline;
+}
+#aplicaciones {
+  margin-top: 26px;
+  margin-bottom: 2px;
+}

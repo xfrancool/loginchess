@@ -6,7 +6,7 @@ const data = [
     video: "video.html#clase1",
     gif: "",
   },
-  {
+  /*   {
     clase: "Clase 2",
     tema: "",
     estudio: "",
@@ -26,7 +26,7 @@ const data = [
     estudio: "",
     video: "video.html#clase4",
     gif: "",
-  },
+  }, */
 ];
 
 function Template(data) {
