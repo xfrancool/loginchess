@@ -666,6 +666,7 @@ a {
   text-decoration: underline;
 }
 #aplicaciones {
-  margin-top: 26px;
-  margin-bottom: 2px;
+  background-color: rgba(15, 172, 164, 0.521);
+  padding: 10px;
+  border-radius: 8px;
 }
