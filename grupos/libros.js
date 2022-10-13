@@ -10,7 +10,7 @@ function Template(book) {
   
           Libro PDF
           <a  href="https://www.mediafire.com/file/40fzkxw49rad2xy/Mejore_su_t%25C3%25A1ctica_en_1001_problemas_-_Zen%25C3%25B3n_Franco.pdf/file" 
-          ><img src="../img/libro.png" class="logozoom" alt=""
+          target="_blank"><img src="../img/libro.png" class="logozoom" alt=""
         /></a>
         
         
