@@ -33,14 +33,20 @@ const date = [
   {
     Nombre: "Sergio",
     Horario: "Viernes (20hs.)",
-    Categoria: " PREMIUM",
+    Categoria: "PREMIUM",
     Meet: "https://meet.google.com/imj-xaxi-gdy",
   },
   {
     Nombre: "Eric",
     Horario: "Viernes   (21hs.)",
-    Categoria: " PREMIUM",
+    Categoria: "PREMIUM",
     Meet: "https://meet.google.com/fxm-vwpw-xsr",
+  },
+  {
+    Nombre: "Hernan",
+    Horario: "Jueves (13hs.)",
+    Categoria: "PREMIUM",
+    Meet: "http://meet.google.com/xiw-whsy-jdz",
   },
   {
     Nombre: "Agustin",
@@ -50,15 +56,9 @@ const date = [
   },
   {
     Nombre: "Jero & Fausti",
-    Horario: "Domingo (19hs.)",
+    Horario: "Viernes (16:30 hs.)",
     Categoria: "",
     Meet: "https://meet.google.com/cnu-qucx-bnr",
-  },
-  {
-    Nombre: "Jose Maria",
-    Horario: "Jueves (15hs.)",
-    Categoria: "",
-    Meet: "https://meet.google.com/znf-heas-ubv?authuser=0&hl=es_419",
   },
   {
     Nombre: "Ciro",
@@ -76,7 +76,7 @@ const date = [
     Nombre: "Mateo",
     Horario: "Jueves (19hs.)",
     Categoria: "",
-    Meet: "",
+    Meet: ".",
   },
 ];
 
