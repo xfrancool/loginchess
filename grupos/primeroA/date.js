@@ -69,7 +69,7 @@ Ver video
 </h3>
 
 <h4 class="cap">
-Descargar GIF
+Descargar Material
 <a  href="${data.gif}" 
 target="_blank" ><img src="../img/descarga1.png" class="logozoom" alt=""
 /></a>
