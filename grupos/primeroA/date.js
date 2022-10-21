@@ -48,6 +48,13 @@ const data = [
     video: "video.html#clase6",
     gif: "https://www.mediafire.com/file/ycif2kph4mf8niq/casillas_reales.pgn/file",
   },
+  {
+    clase: "Clase 7",
+    tema: "Inglesa",
+    estudio: "https://lichess.org/study/th8BnJ7w/MR9973hh",
+    video: "video.html#clase7",
+    gif: "https://www.mediafire.com/file/7zac68f5matpkew/Clase_7.pgn/file",
+  },
 ];
 
 function Template(data) {
