@@ -43,10 +43,17 @@ const data = [
   },
   {
     clase: "Clase 7",
-    tema: "Jugadas indirectas & directas",
+    tema: "",
     estudio: "https://lichess.org/study/TsvZgNEb/hfLzVJXR",
     video: "video.html#clase7",
     gif: "https://www.mediafire.com/file/092mz65ek2pof01/Clase_7.pgn/file",
+  },
+  {
+    clase: "Clase 8",
+    tema: "",
+    estudio: "https://lichess.org/study/TsvZgNEb",
+    video: "video.html#clase8",
+    gif: "https://www.mediafire.com/file/i6fl64o08i78rl7/Clase_8.pgn/file",
   },
 ];
 function Template(data) {
