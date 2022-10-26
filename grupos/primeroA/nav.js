@@ -5,6 +5,7 @@ const navT = [
 ];
 
 function Template(navT) {
+  const name = "grupoA";
   return `
   <nav id="menu">
   <input
@@ -15,7 +16,7 @@ function Template(navT) {
   <ul>
     
     <li>
-      <a href="grupoA.html">Inicio</a></li>
+    <a  href="${name}.html">Inicio</a>
     <li>
       <a class="dropdown-arrow" href="#">Material de estudio</a>
       <ul class="sub-menus">

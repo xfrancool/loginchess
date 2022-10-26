@@ -47,7 +47,7 @@ function Template(navT) {
                 <li><a href="grupos/sergio/sergio.html">Sergio</a></li>
                 <li><a href="grupos/eric/eric.html">Eric</a></li>
                 <li><a href="grupos/mateo/mateo.html">Mateo</a></li>
-                <li><a href="grupos/hernan/hernan.html">Hernan</a></li>
+              
                 <li><a href="#"></a></li>
               </ul>
             </li>
