@@ -42,12 +42,7 @@ const date = [
     Categoria: "PREMIUM",
     Meet: "https://meet.google.com/fxm-vwpw-xsr",
   },
-  {
-    Nombre: "Hernan",
-    Horario: "Jueves (13hs.)",
-    Categoria: "PREMIUM",
-    Meet: "http://meet.google.com/xiw-whsy-jdz",
-  },
+
   {
     Nombre: "Agustin",
     Horario: "Miércoles (18 a 20hs.)",
