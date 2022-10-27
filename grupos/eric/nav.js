@@ -27,6 +27,8 @@ function Template(navT) {
         <li><a href="conceptos.html">Conceptos iniciales</a></li>
         <li><a href="juegos.html">Juegos Iniciales</a></li>
         <li><a href="finales.html">Juegos de finales</a></li>
+        <li><a href="estudiar.html">Estudiar</a></li>
+       
       </ul>
     </li>
     <li><a href="nosotros.html">Acerca de nosotros</a></li>

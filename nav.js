@@ -17,7 +17,7 @@ function Template(navT) {
             <li>
               <a class="dropdown-arrow" href="#">Material de trabajo</a>
               <ul class="sub-menus">
-                <li><a href="materiales.html">Materiales básicos</a></li>
+                <li><a href="materiales.html">Nivel inicial</a></li>
                 <li><a href="#"></a></li>
                 <li><a href="#"></a></li>
               </ul>
@@ -30,6 +30,7 @@ function Template(navT) {
                 <li><a href="conceptos.html">Conceptos iniciales</a></li>
                 <li><a href="juegos.html">Juegos Iniciales</a></li>
                 <li><a href="finales.html">Juegos de finales</a></li>
+                <li><a href="estudiar.html">Estudiar</a></li>
               </ul>
             </li>
             <li>
