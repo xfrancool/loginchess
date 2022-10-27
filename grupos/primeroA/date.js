@@ -50,10 +50,17 @@ const data = [
   },
   {
     clase: "Clase 7",
-    tema: "Inglesa",
+    tema: "",
     estudio: "https://lichess.org/study/th8BnJ7w/MR9973hh",
     video: "video.html#clase7",
     gif: "https://www.mediafire.com/file/7zac68f5matpkew/Clase_7.pgn/file",
+  },
+  {
+    clase: "Clase 8",
+    tema: "Apertura Inglesa",
+    estudio: "https://lichess.org/study/th8BnJ7w",
+    video: "video.html#clase8",
+    gif: "https://www.mediafire.com/file/f8wug1rdw22f6x8/Clase_8.pgn/file",
   },
 ];
 
