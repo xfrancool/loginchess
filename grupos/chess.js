@@ -11,6 +11,7 @@ function Template(chess) {
             <p class="parrafocard">
                 <h3>Sección de estudio
                 </h3>
+                <p>Se remienda ver estudios en el navegador</p>
                <a href="estudiar.html" ><button class="learn-more" id="btn-more">   
                 <span class="circle" aria-hidden="true">
                 <span class="icon arrow"></span>
