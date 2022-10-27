@@ -32,7 +32,7 @@ for (const buttons of submenu) {
 const date = [
   {
     Nombre: "Sergio",
-    Horario: "Viernes (20hs.)",
+    Horario: "Viernes (20:30hs.)",
     Categoria: "PREMIUM",
     Meet: "https://meet.google.com/imj-xaxi-gdy",
   },
