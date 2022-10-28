@@ -24,6 +24,7 @@ function Template(chess) {
             <p class="parrafocard">
                 <h3>Mis videos
                 </h3>
+               
                <a href="video.html" ><button class="learn-more" id="btn-more">   
                 <span class="circle" aria-hidden="true">
                 <span class="icon arrow"></span>

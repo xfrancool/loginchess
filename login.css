@@ -86,6 +86,11 @@ body {
   font: inherit;
   border-radius: 0.6em;
 }
+.input:focus,
+input:valid {
+  outline: none;
+  border: 1.5px solid #1a73e8;
+}
 
 /* 
 .main__input--send {
@@ -243,3 +248,5 @@ button:active {
 footer {
   font-weight: bold;
 }
+
+/*************/
