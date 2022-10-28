@@ -29,8 +29,8 @@ const data = [
   },
   {
     clase: "Clase 5",
-    tema: "",
-    estudio: "https://lichess.org/training/daily",
+    tema: "Entrenamiento",
+    estudio: "https://lichess.org/training",
     video: "video.html#clase5",
     gif: "#",
   },
@@ -51,9 +51,16 @@ const data = [
   {
     clase: "Clase 8",
     tema: "",
-    estudio: "https://lichess.org/study/TsvZgNEb",
+    estudio: "https://lichess.org/study/TsvZgNEb/1J8Ws9GU",
     video: "video.html#clase8",
     gif: "https://www.mediafire.com/file/i6fl64o08i78rl7/Clase_8.pgn/file",
+  },
+  {
+    clase: "Clase 9",
+    tema: "",
+    estudio: "https://lichess.org/study/TsvZgNEb/r3wx9FCf",
+    video: "video.html#clase9",
+    gif: "https://www.mediafire.com/file/942yq6hrai2oq3u/Clase_9.pgn/file",
   },
 ];
 function Template(data) {
