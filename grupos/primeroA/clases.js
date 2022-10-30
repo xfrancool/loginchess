@@ -76,9 +76,9 @@ const clases = [
 function Template(clases) {
   return `
  
-  <button class="accordion">${clases.clase}</button>
+  <button class="accordion">${clases.clase}  | ${clases.tema}</button>
   <div class="panel">
-    <p>${clases.tema} | ${clases.mes}</p>
+    <p>${clases.mes}</p>
     <p><a href="${clases.estudio}" target="_blank" class="linkclas">Ver estudio</a></p>
 
     <p><a href="${clases.gif}" target="_blank" class="linkclas">Descargar material</a></p>
