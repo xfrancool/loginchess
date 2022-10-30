@@ -1,5 +1,10 @@
 const std = [
   {
+    id: 9,
+    url: "https://lichess.org/training",
+    title: "Ejercicios diarios",
+  },
+  {
     id: 1,
     url: "https://lichess.org/study/et8pXJv9",
     title: "Juego en 3 jaques",
@@ -66,13 +71,7 @@ function Template(std) {
    </button></a>
 
     </p>
-  </div>
-  
-  
-  
- 
-
-</div>
+  </div></div>
     
     
       `;
