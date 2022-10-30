@@ -1,7 +1,6 @@
 const videos = [
   {
     clase: "Clase 1",
-    url: "https://youtu.be/-z0zsmr3GZY",
     frame: "https://www.youtube.com/embed/-z0zsmr3GZY",
   },
 ];
@@ -11,7 +10,7 @@ function Template(videos) {
   <div class="textcardvideos">
      <button class="accordion">${videos.clase}</button>
      <div class="panel">
-     <p><a href="${videos.url}" target="_blank" class="linkclas">Ver en Youtube</a></p>
+     
      
       
       <iframe id="iframeacordion"
