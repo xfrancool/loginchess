@@ -3,7 +3,7 @@ const data = [
     clase: "Clase 1",
     tema: "Jugar contra las piezas enemigas",
     estudio: "https://lichess.org/bITA1wy4THVj",
-    video: "video.html#clase1",
+    video: "misvideos.html",
     gif: "https://www.mediafire.com/view/d4zm1mfux2nec8j/Clase1.gif/file",
   },
 ];

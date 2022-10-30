@@ -4,6 +4,7 @@ const clases = [
     tema: "Jugar contra las piezas enemigas",
     estudio: "https://lichess.org/bITA1wy4THVj",
     gif: "https://www.mediafire.com/view/d4zm1mfux2nec8j/Clase1.gif/file",
+    mes: "Octubre",
   },
 ];
 
@@ -12,7 +13,7 @@ function Template(clases) {
  
   <button class="accordion">${clases.clase}</button>
   <div class="panel">
-    <p>${clases.tema}</p>
+    <p>${clases.tema} | ${clases.mes}</p>
     <p><a href="${clases.estudio}" target="_blank" class="linkclas">Ver estudio</a></p>
 
     <p><a href="${clases.gif}" target="_blank" class="linkclas">Descargar material</a></p>

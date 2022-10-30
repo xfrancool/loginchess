@@ -3,7 +3,7 @@ const data = [
     clase: "Clase 1",
     tema: "",
     estudio: "",
-    video: "video.html#clase1",
+    video: "misvideos.html",
     gif: "",
   },
 ];

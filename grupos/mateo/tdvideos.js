@@ -1,8 +1,8 @@
 const videos = [
   {
     clase: "Clase 1",
-    frame: "https://www.youtube.com/embed/-z0zsmr3GZY",
-    mes: "Octubre",
+    frame: "",
+    mes: "",
   },
 ];
 
@@ -13,7 +13,7 @@ function Template(videos) {
      <div class="panel">
      
      
-      
+    
       <iframe id="iframeacordion"
              width="475"
              height="315"

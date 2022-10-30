@@ -1,7 +1,47 @@
 const videos = [
   {
     clase: "Clase 1",
-    frame: "https://www.youtube.com/embed/-z0zsmr3GZY",
+    frame: "https://www.youtube.com/embed/QwQwdhxhPw0",
+    mes: "Septiembre",
+  },
+  {
+    clase: "Clase 2",
+    frame: "https://www.youtube.com/embed/NACa67nZDDc",
+    mes: "Septiembre",
+  },
+  {
+    clase: "Clase 3",
+    frame: "https://www.youtube.com/embed/8DN-m9w4A80",
+    mes: "Septiembre",
+  },
+  {
+    clase: "Clase 4",
+    frame: "https://www.youtube.com/embed/VvzL7j02luk",
+    mes: "Septiembre",
+  },
+  {
+    clase: "Clase 5",
+    frame: "https://www.youtube.com/embed/FYTuH8pMcpc",
+    mes: "Octubre",
+  },
+  {
+    clase: "Clase 6",
+    frame: "https://www.youtube.com/embed/TTVIaZ10WPY",
+    mes: "Octubre",
+  },
+  {
+    clase: "Clase 7",
+    frame: "https://www.youtube.com/embed/Y8NMFJ2m04U",
+    mes: "Octubre",
+  },
+  {
+    clase: "Clase 8",
+    frame: "https://www.youtube.com/embed/gX34Xctb5Bc",
+    mes: "Octubre",
+  },
+  {
+    clase: "Clase 9",
+    frame: "https://www.youtube.com/embed/Mia9zGmxLU4",
     mes: "Octubre",
   },
 ];
@@ -13,7 +53,7 @@ function Template(videos) {
      <div class="panel">
      
      
-      
+    
       <iframe id="iframeacordion"
              width="475"
              height="315"
