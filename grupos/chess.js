@@ -11,7 +11,7 @@ function Template(chess) {
             <p class="parrafocard">
                 <h3>Mis clases
                 </h3>
-                <p>Todas se encuentran guardadas todas</p>
+                <p>Todas se encuentran guardadas</p>
                <a href="clases.html" ><button class="learn-more" id="btn-more">   
                 <span class="circle" aria-hidden="true">
                 <span class="icon arrow"></span>
