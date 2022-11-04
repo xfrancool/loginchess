@@ -33,6 +33,7 @@ function Template(navT) {
     </li>
     <li><a href="clases.html">Mis clases</a></li>
     <li><a href="misvideos.html">Mis videos</a></li>
+    <li><a href="tienda.html">Tienda</a></li>
     <li><a href="nosotros.html">Acerca de nosotros</a></li>
     <li><a href="contacto.html">Contacto</a></li>
   </ul>

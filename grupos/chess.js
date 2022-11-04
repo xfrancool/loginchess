@@ -36,10 +36,10 @@ function Template(chess) {
   
           <div class="textcard">
             <p class="parrafocard">
-                <h3>Mis videos
+                <h3>Videos adicionales
                 </h3>
                
-               <a href="misvideos.html" ><button class="learn-more" id="btn-more">   
+               <a href="video.html" ><button class="learn-more" id="btn-more">   
                 <span class="circle" aria-hidden="true">
                 <span class="icon arrow"></span>
                 </span>

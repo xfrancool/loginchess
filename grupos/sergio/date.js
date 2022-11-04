@@ -23,21 +23,24 @@ Ver estudio
 <a href="${data.estudio}" target="_blank"
   ><img src="../img/png.png" class="logozoom" alt=""
 /></a>
-</h3>
+<h3></h3>
 
 
-<iframe id="iframecard"
-             width="475"
-             height="315"
-             src="${data.frame}">
-             title="YouTube video player"
-             frameborder="0"
-             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-             allowfullscreen
-             ></iframe>
+         
+
+           <iframe id="iframecard"
+           
+           height="230"
+           src="${data.frame}"
+           title="YouTube video player"
+           frameborder="0"
+           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+           allowfullscreen
+           >
+           </iframe>
 
 
-</h3>
+
 
 <h4 class="cap">
 Descargar Material

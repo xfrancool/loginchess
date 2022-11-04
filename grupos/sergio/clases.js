@@ -91,6 +91,7 @@ function Template(clases) {
 
     <p><a href="${clases.gif}" target="_blank" class="linkclas">Descargar material</a></p>
     <p>
+    
     <iframe id="iframeacordion"
            width="475"
            height="315"

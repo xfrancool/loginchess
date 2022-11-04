@@ -167,6 +167,7 @@ function Template(Temp) {
       </div>
     </div>
   </div>
+  </div>
 
   <div class="card animate__animated animate__pulse animate__delay-1s">
     <div class="textcard">
@@ -177,7 +178,10 @@ function Template(Temp) {
       profe!
     </div>
   </div>
+
+  
   <div class="card animate__animated animate__pulse animate__delay-1s">
+  
     <div class="textcard">
       <p class="parrafocard"></p>
       <h3>¿Cuál es nuestra misión?</h3>
@@ -186,6 +190,8 @@ function Template(Temp) {
       preparar nuevas generaciones con buenas bases teorica y práctica.
     </div>
   </div>
+
+
 </div>
     
       `;

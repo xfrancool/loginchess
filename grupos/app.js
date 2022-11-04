@@ -47,3 +47,7 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+/* const btnmercado = document.querySelector(".mercadopago-button");
+
+btnmercado.textContent = "Comprar"; */
