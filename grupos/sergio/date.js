@@ -1,10 +1,12 @@
 const data = [
   {
-    clase: "Clase 9",
+    clase: "Clase 10",
     tema: "",
-    estudio: "https://lichess.org/study/TsvZgNEb/r3wx9FCf",
+    estudio: "https://lichess.org/TVazxmdwKBRR",
     video: "misvideos.html",
-    gif: "https://www.mediafire.com/file/942yq6hrai2oq3u/Clase_9.pgn/file",
+    gif: "https://www.mediafire.com/view/carsp21rq9lhd89/Clase_10.gif/file",
+    frame: "https://www.youtube.com/embed/SkPZkyxDBwk",
+    mes: "Noviembre",
   },
 ];
 function Template(data) {
@@ -12,7 +14,7 @@ function Template(data) {
   <div class="textcard">
 
   <p class="parrafocard">
-  <h3>${data.clase}</h3>
+  <h3>${data.clase} | ${data.mes}</h3>
   <h4>${data.tema}</h4> 
 </p>
 <br>
@@ -22,11 +24,17 @@ Ver estudio
   ><img src="../img/png.png" class="logozoom" alt=""
 /></a>
 </h3>
-<h3 class="cap">
-Ver video
-<a href="${data.video}" 
-  ><img src="../img/video.png" class="logozoom" alt=""
-/></a>
+
+
+<iframe id="iframecard"
+             width="475"
+             height="315"
+             src="${data.frame}">
+             title="YouTube video player"
+             frameborder="0"
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+             allowfullscreen
+             ></iframe>
 
 
 </h3>
