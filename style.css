@@ -230,6 +230,21 @@ h1 {
   padding-right: 10%;
   padding-left: 10%;
 }
+.shop {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.btn-buy {
+  padding: 5px;
+  width: 30%;
+  line-height: bold;
+  font-size: 16px;
+  background-color: #0d2863;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid rgb(7, 199, 119);
+}
 h2 {
   display: flex;
   align-items: center;
@@ -315,7 +330,18 @@ iframe {
   line-height: 20px;
   margin-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.426);
-  width: 40%;
+  width: 25%;
+  text-align: center;
+  border-radius: 20px;
+  line-height: 22px;
+}
+.textcardshop {
+  padding: 20px;
+  color: white;
+  line-height: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.426);
+  width: 25%;
   text-align: center;
   border-radius: 20px;
   line-height: 22px;
@@ -447,14 +473,7 @@ a {
     position: relative;
     top: 30px;
   }
-  #iframecard {
-    width: 10%;
 
-    border-radius: 15px;
-    position: relative;
-    top: 0px;
-    margin: 0;
-  }
   .instructivo {
     margin-top: 50px;
     width: 85%;
@@ -498,6 +517,11 @@ a {
 }
 .imgprof {
   border-radius: 50%;
+}
+.imgshop {
+  border-radius: 5%;
+  border: solid 2px white;
+  width: 100%;
 }
 
 /********************************Slider*****/
@@ -890,3 +914,11 @@ button:hover .button-text {
   color: rgba(0, 255, 255, 0.767);
 }
 /********************/
+#iframecard {
+  border-radius: 10px;
+  border: 1px solid white;
+
+  position: relative;
+  top: 0px;
+  margin: 0;
+}
