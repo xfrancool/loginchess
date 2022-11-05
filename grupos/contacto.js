@@ -7,11 +7,16 @@ const Temp = [
 function Template(Temp) {
   return `
   <h1
-  id="tiger"
-  class="animate__animated animate__pulse animate__delay-1s"
->
-  Nuestras redes
-</h1>
+          id="textfinal"
+          class="animate__animated animate__flipInX animate__delay-1s"
+        >
+          <button data-text="Awesome" class="bienve">
+            <span class="actual-text">&nbsp;Contacto&nbsp;</span>
+            <span class="hover-text" aria-hidden="true"
+              >&nbsp;Contacto&nbsp;</span
+            >
+          </button>
+        </h1>
 <img
   src="../img/logo1.png"
   class="imglogo"

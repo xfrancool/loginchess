@@ -4,7 +4,7 @@ const buy = [
     img: "https://images.unsplash.com/photo-1528819622765-d6bcf132f793?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2hlc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
     link: "https://mpago.la/2j8ChUg",
     title: "Apertura Inglesa",
-    text: "Se añaden materiales de estudios más estudios complementarios",
+    text: "Con sus materiales de estudios más ejercios complementarios",
   },
 ];
 
