@@ -8,6 +8,15 @@ const data = [
     frame: "https://www.youtube.com/embed/SkPZkyxDBwk",
     mes: "Noviembre",
   },
+  {
+    clase: "Clase 11",
+    tema: "",
+    estudio: "#",
+    video: "misvideos.html",
+    gif: "#",
+    frame: "https://www.youtube.com/embed/9gMhf63kxsA",
+    mes: "Noviembre",
+  },
 ];
 function Template(data) {
   return `
