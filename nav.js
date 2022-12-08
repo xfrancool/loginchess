@@ -48,7 +48,7 @@ function Template(navT) {
               <ul class="sub-menus">
                 <li><a href="grupos/sergio/sergio.html">Sergio</a></li>
                 <li><a href="grupos/eric/eric.html">Eric</a></li>
-                <li><a href="grupos/fede/fede.html">Mateo</a></li>
+                <li><a href="grupos/fede/fede.html">Fede</a></li>
                 <li><a href="grupos/mateo/mateo.html">Mateo</a></li>
 
               
