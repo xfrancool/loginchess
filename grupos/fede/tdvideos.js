@@ -1,10 +1,4 @@
-const videos = [
-  {
-    clase: "Clase 1",
-    frame: "https://www.youtube.com/embed/-z0zsmr3GZY",
-    mes: "Octubre",
-  },
-];
+const videos = [];
 
 function Template(videos) {
   return `
