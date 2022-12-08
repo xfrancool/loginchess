@@ -44,9 +44,9 @@ const date = [
   },
 
   {
-    Nombre: "Agustin",
-    Horario: "Miércoles (18 a 20hs.)",
-    Categoria: "",
+    Nombre: "Fede",
+    Horario: "Miércoles (18:30.)",
+    Categoria: "PREMIUM",
     Meet: "https://meet.google.com/fza-ivxy-udc?authuser=0&hl=es_419",
   },
   {

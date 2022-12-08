@@ -1,32 +1,11 @@
 const data = [
   {
-    clase: "Clase 10",
-    estudio: "https://lichess.org/TVazxmdwKBRR",
+    clase: "Clase 1",
+    tema: "Finales",
+    estudio: "https://lichess.org/study/m4Z3Ol1H",
     video: "misvideos.html",
-    gif: "https://www.mediafire.com/view/carsp21rq9lhd89/Clase_10.gif/file",
-    frame: "https://www.youtube.com/embed/SkPZkyxDBwk",
-    mes: "Noviembre",
-  },
-  {
-    clase: "Clase 11",
-    video: "misvideos.html",
-    frame: "https://www.youtube.com/embed/9gMhf63kxsA",
-    mes: "Noviembre",
-  },
-  {
-    clase: "Clase 12",
-    estudio: "https://lichess.org/study/TsvZgNEb/DF5Vbp1T",
-    video: "misvideos.html",
-    gif: "https://www.mediafire.com/file/kqtbk9koy3gzyth/Clase_12.pgn/file",
-    frame: "https://www.youtube.com/embed/EPpiQtvARuc",
-    mes: "Noviembre",
-  },
-  {
-    clase: "Clase 13",
-    estudio: "https://lichess.org/study/TsvZgNEb/G14bGyXY",
-    video: "misvideos.html",
-    gif: "https://www.mediafire.com/file/oqs6yzsko2ce6td/Clase_13.pgn/file",
-    frame: "https://www.youtube.com/embed/diIr40GrRkY",
+    gif: "https://www.mediafire.com/file/lve9apx9jsa821a/Clase_1.pgn/file",
+    frame: "https://www.youtube.com/embed/Xe9jeovppAs",
     mes: "Diciembre",
   },
 ];
