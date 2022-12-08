@@ -1,13 +1,4 @@
-const data = [
-  {
-    clase: "Clase 1",
-    tema: "Jugar contra las piezas enemigas",
-    estudio: "https://lichess.org/bITA1wy4THVj",
-    frame: "https://www.youtube.com/embed/-z0zsmr3GZY",
-    gif: "https://www.mediafire.com/view/d4zm1mfux2nec8j/Clase1.gif/file",
-    mes: "Octubre",
-  },
-];
+const data = [];
 
 function Template(data) {
   return `
