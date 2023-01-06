@@ -1,4 +1,41 @@
-const clases = [];
+const clases = [
+  {
+    clase: "Clase 1",
+    tema: "Finales",
+    estudio: "https://lichess.org/study/m4Z3Ol1H",
+    video: "misvideos.html",
+    gif: "https://www.mediafire.com/file/lve9apx9jsa821a/Clase_1.pgn/file",
+    frame: "https://www.youtube.com/embed/Xe9jeovppAs",
+    mes: "Diciembre",
+  },
+  {
+    clase: "Clase 2",
+    tema: "Finales",
+    estudio: "https://lichess.org/study/m4Z3Ol1H",
+    video: "misvideos.html",
+    gif: "https://www.mediafire.com/file/adyjf03t87xtss9/PGN_Diciembre.pgn/file",
+    frame: "https://www.youtube.com/embed/ULkzCTkIsbM",
+    mes: "Diciembre",
+  },
+  {
+    clase: "Clase 3",
+    tema: "Finales",
+    estudio: "https://lichess.org/study/m4Z3Ol1H",
+    video: "misvideos.html",
+    gif: "https://www.mediafire.com/file/adyjf03t87xtss9/PGN_Diciembre.pgn/file",
+    frame: "https://www.youtube.com/embed/bZUPCCDtmws",
+    mes: "Diciembre",
+  },
+  {
+    clase: "Clase 4",
+    tema: "Finales",
+    estudio: "https://lichess.org/study/m4Z3Ol1H",
+    video: "misvideos.html",
+    gif: "https://www.mediafire.com/file/adyjf03t87xtss9/PGN_Diciembre.pgn/file",
+    frame: "https://www.youtube.com/embed/r3YL2dayz28",
+    mes: "Diciembre",
+  },
+];
 
 function Template(clases) {
   return `

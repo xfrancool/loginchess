@@ -1,7 +1,6 @@
 const videos = [
   {
     clase: "Clase 1",
-    tema: "",
     estudio: "https://lichess.org/study/TsvZgNEb",
     video: "misvideos.html",
     gif: "https://www.mediafire.com/file/hmjjksx79zr6ucy/Clase1.pgn/file",
@@ -10,7 +9,6 @@ const videos = [
   },
   {
     clase: "Clase 2",
-    tema: "",
     estudio: "https://lichess.org/study/TsvZgNEb/u3PTrDKx",
     video: "misvideos.html",
     gif: "https://www.mediafire.com/file/y33wu2fwvkj54g1/CLASE_N2_GIF.gif/file",
@@ -19,7 +17,6 @@ const videos = [
   },
   {
     clase: "Clase 3",
-    tema: "",
     estudio: "https://lichess.org/study/TsvZgNEb/rGZOFbia",
     video: "misvideos.html",
     gif: "https://www.mediafire.com/file/phzjwob47im1c9i/Clase_-_3.gif/file",
@@ -28,7 +25,6 @@ const videos = [
   },
   {
     clase: "Clase 4",
-    tema: "",
     estudio: "https://lichess.org/study/TsvZgNEb/a2k8WdTo",
     video: "misvideos.html",
     gif: "https://www.mediafire.com/file/v5m7xsc4shhqeb1/Clase_4.gif/file",
@@ -46,7 +42,6 @@ const videos = [
   },
   {
     clase: "Clase 6",
-    tema: "",
     estudio: "https://lichess.org/study/TsvZgNEb/a2k8WdTo",
     video: "misvideos.html",
     gif: "https://www.mediafire.com/file/80valzr9fbfqn60/Clase_6.pgn/file",
@@ -55,7 +50,6 @@ const videos = [
   },
   {
     clase: "Clase 7",
-    tema: "",
     estudio: "https://lichess.org/study/TsvZgNEb/hfLzVJXR",
     video: "misvideos.html",
     gif: "https://www.mediafire.com/file/092mz65ek2pof01/Clase_7.pgn/file",
@@ -64,7 +58,6 @@ const videos = [
   },
   {
     clase: "Clase 8",
-    tema: "",
     estudio: "https://lichess.org/study/TsvZgNEb/1J8Ws9GU",
     video: "misvideos.html",
     gif: "https://www.mediafire.com/file/i6fl64o08i78rl7/Clase_8.pgn/file",
@@ -73,12 +66,71 @@ const videos = [
   },
   {
     clase: "Clase 9",
-    tema: "",
     estudio: "https://lichess.org/study/TsvZgNEb/r3wx9FCf",
     video: "misvideos.html",
     gif: "https://www.mediafire.com/file/942yq6hrai2oq3u/Clase_9.pgn/file",
     frame: "https://www.youtube.com/embed/Mia9zGmxLU4",
     mes: "Octubre",
+  },
+  {
+    clase: "Clase 10",
+    estudio: "https://lichess.org/TVazxmdwKBRR",
+    video: "misvideos.html",
+    gif: "https://www.mediafire.com/view/carsp21rq9lhd89/Clase_10.gif/file",
+    frame: "https://www.youtube.com/embed/SkPZkyxDBwk",
+    mes: "Noviembre",
+  },
+  {
+    clase: "Clase 11",
+    video: "misvideos.html",
+    frame: "https://www.youtube.com/embed/9gMhf63kxsA",
+    mes: "Noviembre",
+  },
+  {
+    clase: "Clase 12",
+    estudio: "https://lichess.org/study/TsvZgNEb/DF5Vbp1T",
+    video: "misvideos.html",
+    gif: "https://www.mediafire.com/file/kqtbk9koy3gzyth/Clase_12.pgn/file",
+    frame: "https://www.youtube.com/embed/EPpiQtvARuc",
+    mes: "Noviembre",
+  },
+  {
+    clase: "Clase 13",
+    estudio: "https://lichess.org/study/TsvZgNEb/G14bGyXY",
+    video: "misvideos.html",
+    gif: "https://www.mediafire.com/file/oqs6yzsko2ce6td/Clase_13.pgn/file",
+    frame: "https://www.youtube.com/embed/diIr40GrRkY",
+    mes: "Noviembre",
+  },
+  {
+    clase: "Clase 14",
+    estudio: "https://lichess.org/study/TsvZgNEb/tyYkfRHq",
+    video: "misvideos.html",
+    gif: "https://www.mediafire.com/file/nymp2ha26ecgy8g/Clase_14.pgn/file",
+    frame: "https://www.youtube.com/embed/U9akbPXGx_s",
+    mes: "Diciembre",
+  },
+  {
+    clase: "Clase 15",
+    estudio: "https://lichess.org/study/TsvZgNEb/Ws7cQczl",
+    video: "misvideos.html",
+    gif: "https://www.mediafire.com/file/3f0wjr8glb9kics/Clase_15.pgn/file",
+    frame: "https://www.youtube.com/embed/dl049qaiMUU",
+    mes: "Diciembre",
+  },
+  {
+    clase: "Clase 16",
+    estudio: "https://lichess.org/study/TsvZgNEb/SoAtXzD3",
+    video: "misvideos.html",
+    gif: "https://www.mediafire.com/file/fn12xru6wdtyeah/Clase_16.pgn/file",
+    frame: "https://www.youtube.com/embed/8mPSEQkznNI",
+    mes: "Diciembre",
+  },
+  {
+    clase: "Clase 17",
+    video: "misvideos.html",
+    frame: "https://www.youtube.com/embed/HIwUEbkYRLw",
+    mes: "Diciembre",
   },
 ];
 function Template(videos) {
