@@ -31,6 +31,8 @@ function Template(Temp) {
     <p></p>
   </div>
 </div>
+
+
 <div class="card animate__animated animate__pulse animate__delay-1s">
   <div class="textcard">
     <div class="slide">
@@ -46,11 +48,11 @@ function Template(Temp) {
         />
         <div class="slide-item">
           <br />
-          <h2>Bertea Gustavo</h2>
+          <h2>Argento Elizabeth</h2>
           <br />
-          <p><strong>ELO Lichess 1922</strong></p>
+          <p><strong>ELO Lichess 2305</strong></p>
           <br />
-          <img src="../img/profes/prof1.jpeg" class="imgprof" />
+          <img src="../img/profes/prof1.jpg" class="imgprof" />
         </div>
         <input
           class="slide-open"
@@ -62,11 +64,11 @@ function Template(Temp) {
         />
         <div class="slide-item">
           <br />
-          <h2>López Roberto</h2>
+          <h2>Perez Berna</h2>
           <br />
-          <p><strong>ELO Lichess 1960</strong></p>
+          <p><strong>ELO Lichess 2005</strong></p>
           <br />
-          <img src="../img/profes/prof2.jpeg" class="imgprof" />
+          <img src="../img/profes/prof2.png" class="imgprof" />
         </div>
         <input
           class="slide-open"
@@ -78,11 +80,11 @@ function Template(Temp) {
         />
         <div class="slide-item">
           <br />
-          <h2>Sotelo Noé</h2>
+          <h2>López Daniel</h2>
           <br />
-          <p><strong>ELO FIDE 2081</strong></p>
+          <p><strong>ELO Lichess 1923</strong></p>
           <br />
-          <img src="../img/profes/prof3.jpeg" class="imgprof" />
+          <img src="../img/profes/prof3.png" class="imgprof" />
         </div>
         <input
           class="slide-open"
@@ -94,8 +96,8 @@ function Template(Temp) {
         />
         <div class="slide-item">
           <br />
-          <h1>Acosta Franco</h1>
-          <p><strong>ELO FIDE 1956</strong></p>
+          <h1>Bertea Gustavo</h1>
+          <p><strong>ELO Lichess 1922</strong></p>
           <br />
           <img src="../img/profes/prof4.jpeg" class="imgprof" />
         </div>
@@ -107,13 +109,14 @@ function Template(Temp) {
           aria-hidden="true"
           hidden=""
         />
+
         <div class="slide-item">
           <br />
-          <h2>Argento Mariel</h2>
+          <h2>Acosta Franco</h2>
           <br />
-          <p><strong>ELO Lichess 2305</strong></p>
+          <p><strong>ELO FIDE 1956</strong></p>
           <br />
-          <img src="../img/profes/prof5.jpg" class="imgprof" />
+          <img src="../img/profes/prof5.jpeg" class="imgprof" />
         </div>
 
         <label for="slide-5" class="slide-control prev control-1"
